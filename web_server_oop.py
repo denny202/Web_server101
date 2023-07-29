@@ -34,5 +34,5 @@ class Webserver:
             client_conn.close()
 
 if __name__ == "__main__":
-    server = Webserver('h', 8080)
+    server = Webserver('', 8080)
     server.serve_forever()
